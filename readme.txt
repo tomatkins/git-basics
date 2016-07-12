@@ -14,5 +14,3 @@ Lt. Frank Drebin: It's the same old story. Boy finds girl, boy loses girl, girl 
 Jane: Goodyear?
 
 Frank: No, the worst.
-
-
