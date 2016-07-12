@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Learning Github</title>
+        <title>Learning Github Again</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="_css/main.css">
@@ -27,20 +27,20 @@
 //use the modernizr load to load up external scripts. This will load the scripts asynchronously, but the order listed matters. Although it will load all scripts in parallel, it will execute them in the order listed
 Modernizr.load([
 {
-    load: [  
+    load: [
 		//for local testing, for distribution remove the protocol and let Google resolve
         'http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js',
-		'_scripts/scripts.js' 
-		//additional scripts can be loaded here, separate with a comma in the order you wish them to execute 
+		'_scripts/scripts.js'
+		//additional scripts can be loaded here, separate with a comma in the order you wish them to execute
     ]
 },
 {
 	// test for media query support, if not load respond.js
     test : Modernizr.mq('only all'),
     // If not, load the respond.js file
-    nope : '_scripts/respond.min.js' 
+    nope : '_scripts/respond.min.js'
 }
-]); 
+]);
 </script>
     </body>
 </html>
